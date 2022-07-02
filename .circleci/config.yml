@@ -17,9 +17,14 @@ jobs: specifies the jobs that need to be performed in a workflow
         - checkout
         - run: python3 main-test.py
 
-
 commands: specifies commands that can be reused
 
 orbs: prewritten functions
 
 workflow: specifies the order of jobs, a pipeline can be made up of one or more jobs
+  build_and_test:
+    jobs:
+     -build
+     -test
+       requires:
+         -build
