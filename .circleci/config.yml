@@ -1,6 +1,13 @@
 version: specifies the circle-ci version, recent version mostly used
 
 jobs: specifies the jobs that need to be performed in a workflow
+  build:
+    working_directory: ~/circleci-python
+    docker:
+      - image: "circleci/python:3.6.4"
+    steps:
+      - checkout
+      - run: python3 main.p
 
 commands: specifies commands that can be reused
 
