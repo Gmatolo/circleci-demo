@@ -1,8 +1,8 @@
 from main import sum
 
-def testsum(a,b):
-    assert sum(2,5) == 7 
-    print("the sum func works correctly")
+def testsum():
+    assert sum(5,5) == 10
+    print("the sum function is working...")
 
 
 if __name__ == "__main__":
