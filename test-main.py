@@ -1,7 +1,8 @@
 from main import sum
 
-def testsum(a,b):
-    assert sum(2,5) == 7 
+def testsum():
+    assert sum(2,5) == 7
+    assert Add(5,5) == 10
     print("the sum func works correctly")
 
 
