@@ -1,6 +1,6 @@
 # Anatomy of a circleci config.yml file
 
-circleci-demo
+Pipelines have workflows that have jobs that have steps
 
 version: specifies the circle-ci version, recent version mostly used
 
