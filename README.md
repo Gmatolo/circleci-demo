@@ -1,7 +1,7 @@
 # Anatomy of a circleci config.yml file
 
 Pipelines have workflows that have jobs that have steps
-
+git workflow, naming convention
 version: specifies the circle-ci version, recent version mostly used
 
 jobs: specifies the jobs that need to be performed in a workflow
